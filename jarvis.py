@@ -58,7 +58,7 @@ class Jarvis(tk.Tk):
 
     def configure_main_window(self):
         self.configure(bg='black')  # background color
-        self.attributes("-alpha", 0.9)  # make it a bit transparent; higher value means less transparent
+        self.attributes("-alpha", 1)  # make it a bit transparent; higher value means less transparent
         self.title("J.A.R.V.I.S")
 
         self.geometry(f'{self.WINDOW_WIDTH}x{self.WINDOW_HEIGHT}')
